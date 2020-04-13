@@ -1,12 +1,12 @@
 var body = document.body
-for (var i=0;i<80;i++){
+for (var i=0;i<96;i++){
     var img = new Image();
     num = parseInt(Math.random()*273);
     img.src = "pkq/" + num + ".jpg";
     var w = document.body.clientWidth - 120;
     var h = document.body.clientHeight + 650;
-    var x = i%14 * 102 + Math.random()*100;  
-    var y = i%6 * 112 + Math.random()*80;
+    var x = i%16 * 100 + Math.random()*70;  
+    var y = i%6 * 115 + Math.random()*70;
     img.style.left = x + "px";  
     img.style.top = y + "px";
     img.style.width = "100px";
