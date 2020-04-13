@@ -1,5 +1,5 @@
 var body = document.body
-for (var i=0;i<75;i++){
+for (var i=0;i<80;i++){
     var img = new Image();
     num = parseInt(Math.random()*273);
     img.src = "pkq/" + num + ".jpg";
